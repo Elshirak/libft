@@ -7,13 +7,12 @@
 * ***Approximate labor costs:***    about 70 hours
 * ***Actual labor costs:***    0 hour
 * ***Start date:***    16.01.2023 
-* ***Finish date:***    16.01.2023 
+* ***Finish date:***    25.01.2023 
 <br>
 <br>
 <br>
 
-
-***Result:*** 
+***RESULT :*** 
 
 <hr>
 The purpose is to create my own C library which I'll use in future projects. Library has 3 types of functions:
