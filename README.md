@@ -1,8 +1,21 @@
 # libft
-*My first project in 42 coding school*
+*My first project in [42 coding school](https://42.fr/en/homepage/)*
+<hr> 
+<img src="https://user-images.githubusercontent.com/68464959/212696987-c73b8a49-fc67-4a3b-a55d-ea796fb70774.png" align="right" width="500">
+
+* ***Actual status:***    In progress 
+* ***Approximate labor costs:***    about 70 hours
+* ***Actual labor costs:***    0 hour
+* ***Start date:***    16.01.2023 
+* ***Finish date:***    16.01.2023 
+<br>
+<br>
+<br>
+
+
+***Result:*** 
+
 <hr>
-          
-  
 The purpose is to create my own C library which I'll use in future projects. Library has 3 types of functions:
 
 1.  **Libc Functions:** Some of the standard C functions
@@ -32,6 +45,8 @@ Table
 | <ul> In progress :ok_hand:</ul> |ft_isprint	
 | <ul> In progress :ok_hand:</ul> |ft_toupper		
 | <ul> In progress :ok_hand:</ul> |ft_tolower	
+
+
 
 
 
