@@ -5,7 +5,7 @@
 
 * ***Actual status:***    In progress 
 * ***Approximate labor costs:***    about 70 hours
-* ***Actual labor costs:***    0 hour
+* ***Actual labor costs:***    36 mins
 * ***Start date:***    16.01.2023 
 * ***Finish date:***    25.01.2023 
 <br>
