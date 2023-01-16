@@ -1,21 +1,29 @@
 # libft
-My first project in 42 coding school
+*My first project in 42 coding school*
+<hr>
+          
+  
+The purpose is to create my own C library which I'll use in future projects. Library has 3 types of functions:
 
-Libc functions:
-|Status|Function name|Comments|
-:-----------: | :-----------: | :-----------: 
-| <ul> In progress :ok_hand:</ul> | ft_bzero 
-| <ul> In progress :ok_hand:</ul> |ft_memchr		
-| <ul> In progress :ok_hand:</ul> |ft_memcpy		
-| <ul> In progress :ok_hand:</ul> |ft_memccpy		
-| <ul> In progress :ok_hand:</ul> |ft_memmove		
-| <ul> In progress :ok_hand:</ul> |ft_memset		
-| <ul> In progress :ok_hand:</ul> |ft_strncmp		
-| <ul> In progress :ok_hand:</ul> |ft_strchr		
-| <ul> In progress :ok_hand:</ul> |ft_strrchr				
-| <ul> In progress :ok_hand:</ul> |ft_strnstr		
-| <ul> In progress :ok_hand:</ul> |ft_strlcat		
-| <ul> In progress :ok_hand:</ul> |ft_strlcpy	
+1.  **Libc Functions:** Some of the standard C functions
+2.  **Additional functions:** Functions 42 deems will be useful for later projects
+3.  **Bonus Functions:** Functions 42 deems will be useful for linked list manipulation
+
+Table 
+|Status|LibC func|Comments| | Status|Additional func|Comments|
+:-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: 
+| <ul> In progress :ok_hand:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
+| <ul> In progress :ok_hand:</ul> |ft_memchr	  | | | <ul> In progress :ok_hand:</ul> | ft_strjoin	
+| <ul> In progress :ok_hand:</ul> |ft_memcpy		| | | <ul> In progress :ok_hand:</ul> | ft_strtrim
+| <ul> In progress :ok_hand:</ul> |ft_memccpy		| | | <ul> In progress :ok_hand:</ul> | ft_split
+| <ul> In progress :ok_hand:</ul> |ft_memmove		| | | <ul> In progress :ok_hand:</ul> | ft_itoa
+| <ul> In progress :ok_hand:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
+| <ul> In progress :ok_hand:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
+| <ul> In progress :ok_hand:</ul> |ft_strchr		| | | <ul> In progress :ok_hand:</ul> | ft_putchar_fd 
+| <ul> In progress :ok_hand:</ul> |ft_strrchr		| | | <ul> In progress :ok_hand:</ul> |	ft_putstr_fd
+| <ul> In progress :ok_hand:</ul> |ft_strnstr		| | | <ul> In progress :ok_hand:</ul> | ft_putendl_fd
+| <ul> In progress :ok_hand:</ul> |ft_strlcat		| | | <ul> In progress :ok_hand:</ul> | ft_putnbr_fd
+| <ul> In progress :ok_hand:</ul> |ft_strlcpy 	| | | **Status** | **Bonus func** | **Comments**
 | <ul> DONE :white_check_mark:</ul> |ft_strlen	
 | <ul> In progress :ok_hand:</ul> |ft_isalpha	
 | <ul> In progress :ok_hand:</ul> |ft_isdigit
