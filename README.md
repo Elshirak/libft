@@ -15,13 +15,15 @@
 ***RESULT :*** 
 
 <hr>
+<br>
+<br>
 The purpose is to create my own C library which I'll use in future projects. Library has 3 types of functions:
 
 1.  **Libc Functions:** Some of the standard C functions
 2.  **Additional functions:** Functions 42 deems will be useful for later projects
 3.  **Bonus Functions:** Functions 42 deems will be useful for linked list manipulation
 
-Table 
+Table of functions:
 |Status|LibC func|Comments| | Status|Additional func|Comments|
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: 
 | <ul> In progress :ok_hand:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
