@@ -23,7 +23,7 @@ The purpose is to create my own C library which I'll use in future projects. Lib
 2.  **Additional functions:** Functions 42 deems will be useful for later projects
 3.  **Bonus Functions:** Functions 42 deems will be useful for linked list manipulation
 
-Table of functions:
+Table of included functions:
 |Status|LibC func|Comments| | Status|Additional func|Comments|
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: 
 | <ul> In progress :ok_hand:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
