@@ -31,7 +31,7 @@ Table of included functions:
 | <ul> In progress :ok_hand:</ul> |ft_memcpy		| | | <ul> In progress :ok_hand:</ul> | ft_strtrim
 | <ul> In progress :ok_hand:</ul> |ft_memccpy		| | | <ul> In progress :ok_hand:</ul> | ft_split
 | <ul> In progress :ok_hand:</ul> |ft_memmove		| | | <ul> In progress :ok_hand:</ul> | ft_itoa
-| <ul> In progress :ok_hand:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
+| <ul> DONE :white_check_mark:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
 | <ul> In progress :ok_hand:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
 | <ul> In progress :ok_hand:</ul> |ft_strchr		| | | <ul> In progress :ok_hand:</ul> | ft_putchar_fd 
 | <ul> In progress :ok_hand:</ul> |ft_strrchr		| | | <ul> In progress :ok_hand:</ul> |	ft_putstr_fd
