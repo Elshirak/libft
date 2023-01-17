@@ -26,7 +26,7 @@ The purpose is to create my own C library which I'll use in future projects. Lib
 Table of included functions:
 |Status|LibC func|Comments| | Status|Additional func|Comments|
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: 
-| <ul> In progress :ok_hand:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
+| <ul> DONE :white_check_mark:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
 | <ul> In progress :ok_hand:</ul> |ft_memchr	  | | | <ul> In progress :ok_hand:</ul> | ft_strjoin	
 | <ul> In progress :ok_hand:</ul> |ft_memcpy		| | | <ul> In progress :ok_hand:</ul> | ft_strtrim
 | <ul> In progress :ok_hand:</ul> |ft_memccpy		| | | <ul> In progress :ok_hand:</ul> | ft_split
@@ -39,11 +39,11 @@ Table of included functions:
 | <ul> In progress :ok_hand:</ul> |ft_strlcat		| | | <ul> In progress :ok_hand:</ul> | ft_putnbr_fd
 | <ul> In progress :ok_hand:</ul> |ft_strlcpy 	| | | **Status** | **Bonus func** | **Comments**
 | <ul> DONE :white_check_mark:</ul> |ft_strlen	
-| <ul> In progress :ok_hand:</ul> |ft_isalpha	
-| <ul> In progress :ok_hand:</ul> |ft_isdigit
-| <ul> In progress :ok_hand:</ul> |ft_isalnum	
-| <ul> In progress :ok_hand:</ul> |ft_isascii	
-| <ul> In progress :ok_hand:</ul> |ft_isprint	
+| <ul> DONE :white_check_mark:</ul> |ft_isalpha	
+| <ul> DONE :white_check_mark:</ul> |ft_isdigit
+| <ul> DONE :white_check_mark:</ul> |ft_isalnum	
+| <ul> DONE :white_check_mark:</ul> |ft_isascii	
+| <ul> DONE :white_check_mark:</ul> |ft_isprint	
 | <ul> In progress :ok_hand:</ul> |ft_toupper		
 | <ul> In progress :ok_hand:</ul> |ft_tolower	
 
