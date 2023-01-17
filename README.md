@@ -29,7 +29,7 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
 | <ul> In progress :ok_hand:</ul> |ft_memchr	  | | | <ul> In progress :ok_hand:</ul> | ft_strjoin	
 | <ul> In progress :ok_hand:</ul> |ft_memcpy		| | | <ul> In progress :ok_hand:</ul> | ft_strtrim
-| <ul> In progress :ok_hand:</ul> |ft_memccpy		| | | <ul> In progress :ok_hand:</ul> | ft_split
+| <ul> DONE :white_check_mark:</ul> |ft_memccpy		| | | <ul> In progress :ok_hand:</ul> | ft_split
 | <ul> In progress :ok_hand:</ul> |ft_memmove		| | | <ul> In progress :ok_hand:</ul> | ft_itoa
 | <ul> DONE :white_check_mark:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
 | <ul> In progress :ok_hand:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
