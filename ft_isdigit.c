@@ -6,13 +6,13 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 14:13:57 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/17 15:09:21 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/17 15:42:49 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isdigit(int symbol)
+int	ft_isdigit(int symbol)
 {
-    return((symbol >= '0') && (symbol <= '9'));    
+	return ((symbol >= '0') && (symbol <= '9'));
 }

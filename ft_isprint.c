@@ -6,13 +6,13 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 14:32:48 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/17 14:33:29 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/17 15:41:14 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isprint(int  sym)
+int	ft_isprint(int sym)
 {
-    return ((sym >= 32) && (sym <= 126));  
+	return ((sym >= 32) && (sym <= 126));
 }

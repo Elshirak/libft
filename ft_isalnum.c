@@ -6,13 +6,13 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 14:18:45 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/17 14:24:14 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/17 15:46:01 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isalnum(int sym)
+int	ft_isalnum(int sym)
 {
-    return(ft_isalpha(sym) || ft_isdifit(sym));
+	return (ft_isalpha(sym) || ft_isdifit(sym));
 }

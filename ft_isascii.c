@@ -6,13 +6,13 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 14:24:46 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/17 14:29:16 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/17 15:43:32 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isascii(int  sym)
+int	ft_isascii(int sym)
 {
-    return ((sym >= 0) && (sym <= 127));  
+	return ((sym >= 0) && (sym <= 127));
 }

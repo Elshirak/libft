@@ -6,13 +6,14 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 13:59:07 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/17 14:16:13 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/17 15:45:13 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_isalpha(int symbol)
+int	ft_isalpha(int symbol)
 {
-    return(((symbol >= 'a') && (symbol <= 'z')) || ((symbol >= 'A') && (symbol <= 'Z')));    
+	return (((symbol >= 'a') && (symbol <= 'z'))
+		|| ((symbol >= 'A') && (symbol <= 'Z')));
 }
