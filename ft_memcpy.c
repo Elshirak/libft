@@ -1,28 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/16 20:48:37 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/17 17:22:13 by selbakya         ###   ########.fr       */
+/*   Created: 2023/01/17 16:52:06 by selbakya          #+#    #+#             */
+/*   Updated: 2023/01/17 17:18:51 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
-# define LIBFT_H
-# include <unistd.h>
-# include <stddef.h>
+#include "libft.h"
 
-size_t	ft_strlen(const char *s);
-int		ft_isalpha(int symbol);
-void	ft_bzero(void *s, size_t length);
-void	*ft_memset(void *dest, int val, size_t len);
-int		ft_isalnum(int sym);
-int		ft_isascii(int sym);
-int		ft_isdigit(int symbol);
-int		ft_isprint(int sym);
-void	ft_memcpy(void *dest, const void *src, size_t len);
+void	ft_memcpy(void *dest, const void *src, size_t len)
+{
+	unsigned char	*dest_1;
+	unsigned char	*src_1;
 
-#endif
+	dest_1 = (unsigned char *)dest;
+	src_1 = (unsigned char *)src;
+	if (!len || dest == src)
+		return (dest);
+	while (len--)
+	{
+		*dest_1++ = *src_1++;
+	}
+	return (dest);
+}
