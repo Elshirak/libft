@@ -45,6 +45,8 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_isprint	
 | <ul> DONE :white_check_mark:</ul> |ft_toupper		
 | <ul> DONE :white_check_mark:</ul> |ft_tolower	
+| <ul> In progress :ok_hand:</ul> |ft_atoi	
+| <ul> In progress :ok_hand:</ul> |ft_memcmp	 
 
 
 
