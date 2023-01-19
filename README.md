@@ -47,6 +47,9 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_tolower	
 | <ul> DONE :white_check_mark:</ul> |ft_atoi	
 | <ul> In progress :ok_hand:</ul> |ft_memcmp	 
+| <ul> In progress :ok_hand:</ul> |ft_strdup	 
+| <ul> In progress :ok_hand:</ul> |ft_calloc	 
+
 
 
 
