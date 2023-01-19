@@ -5,7 +5,7 @@
 
 * ***Actual status:***    In progress 
 * ***Approximate labor costs:***    about 70 hours
-* ***Actual labor costs:***    5 hours 30 minutes
+* ***Actual labor costs:***    9 hours 0 minutes
 * ***Start date:***    16.01.2023 
 * ***Finish date:***    25.01.2023 
 <br>
@@ -46,7 +46,7 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_toupper		
 | <ul> DONE :white_check_mark:</ul> |ft_tolower	
 | <ul> DONE :white_check_mark:</ul> |ft_atoi	
-| <ul> In progress :ok_hand:</ul> |ft_memcmp	 
+| <ul> DONE :white_check_mark:</ul> |ft_memcmp	 
 | <ul> In progress :ok_hand:</ul> |ft_strdup	 
 | <ul> In progress :ok_hand:</ul> |ft_calloc	 
 
