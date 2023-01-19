@@ -27,13 +27,13 @@ Table of included functions:
 |Status|LibC func|Comments| | Status|Additional func|Comments|
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: 
 | <ul> DONE :white_check_mark:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
-| <ul> In progress :ok_hand:</ul> |ft_memchr	  | | | <ul> In progress :ok_hand:</ul> | ft_strjoin	
+| <ul> DONE :white_check_mark:</ul> |ft_memchr	  | | | <ul> In progress :ok_hand:</ul> | ft_strjoin	
 | <ul> DONE :white_check_mark:</ul> |ft_memcpy		| | | <ul> In progress :ok_hand:</ul> | ft_strtrim
 | <ul> DONE :white_check_mark:</ul> |ft_memmove		| | | <ul> In progress :ok_hand:</ul> | ft_itoa
 | <ul> DONE :white_check_mark:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
-| <ul> In progress :ok_hand:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
-| <ul> In progress :ok_hand:</ul> |ft_strchr		| | | <ul> In progress :ok_hand:</ul> | ft_putchar_fd 
-| <ul> In progress :ok_hand:</ul> |ft_strrchr		| | | <ul> In progress :ok_hand:</ul> |	ft_putstr_fd
+| <ul> DONE :white_check_mark:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
+| <ul> DONE :white_check_mark:</ul> |ft_strchr		| | | <ul> In progress :ok_hand:</ul> | ft_putchar_fd 
+| <ul> DONE :white_check_mark:</ul> |ft_strrchr		| | | <ul> In progress :ok_hand:</ul> |	ft_putstr_fd
 | <ul> In progress :ok_hand:</ul> |ft_strnstr		| | | <ul> In progress :ok_hand:</ul> | ft_putendl_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcat		| | | <ul> In progress :ok_hand:</ul> | ft_putnbr_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcpy 	| | | <ul> In progress :ok_hand:</ul> | ft_split
