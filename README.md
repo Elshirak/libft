@@ -5,7 +5,7 @@
 
 * ***Actual status:***    In progress 
 * ***Approximate labor costs:***    about 70 hours
-* ***Actual labor costs:***    9 hours 0 minutes
+* ***Actual labor costs:***    9 hours 30 minutes
 * ***Start date:***    16.01.2023 
 * ***Finish date:***    25.01.2023 
 <br>
@@ -34,7 +34,7 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
 | <ul> DONE :white_check_mark:</ul> |ft_strchr		| | | <ul> In progress :ok_hand:</ul> | ft_putchar_fd 
 | <ul> DONE :white_check_mark:</ul> |ft_strrchr		| | | <ul> In progress :ok_hand:</ul> |	ft_putstr_fd
-| <ul> In progress :ok_hand:</ul> |ft_strnstr		| | | <ul> In progress :ok_hand:</ul> | ft_putendl_fd
+| <ul> DONE :white_check_mark:</ul> |ft_strnstr		| | | <ul> In progress :ok_hand:</ul> | ft_putendl_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcat		| | | <ul> In progress :ok_hand:</ul> | ft_putnbr_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcpy 	| | | <ul> In progress :ok_hand:</ul> | ft_split
 | <ul> DONE :white_check_mark:</ul> |ft_strlen	| | | **Status** | **Bonus func** | **Comments**
@@ -48,7 +48,7 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_atoi	
 | <ul> DONE :white_check_mark:</ul> |ft_memcmp	 
 | <ul> In progress :ok_hand:</ul> |ft_strdup	 
-| <ul> In progress :ok_hand:</ul> |ft_calloc	 
+| <ul> DONE :white_check_mark:</ul> |ft_calloc	 
 
 
 
