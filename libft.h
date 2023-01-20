@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:48:37 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/18 15:01:59 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/20 14:31:33 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 # define LIBFT_H
 # include <unistd.h>
 # include <stddef.h>
+# include <stdlib.h>
 
 size_t	ft_strlen(const char *s);
 int		ft_isalpha(int symbol);

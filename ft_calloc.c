@@ -1,30 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strnstr.c                                       :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/20 02:01:13 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/20 14:23:51 by selbakya         ###   ########.fr       */
+/*   Created: 2023/01/20 14:30:21 by selbakya          #+#    #+#             */
+/*   Updated: 2023/01/20 14:40:19 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char    *ft_strnstr(const char *haystack, const char *needle, size_t len)
+void    *ft_calloc(size_t number_of_elements, size_t size_of_element)
 {
-    size_t len_needle;
-
-    len_needle = ft_strlen(needle);
-    if (!len_needle)
-        return ((char *)(haystack));
-    while (len >= len_needle)
-    {
-        len--;
-        if (!ft_memcmp(haystack, needle, len_needle))
-            return ((char *)(haystack));
-        haystack++;
-    }
-    return (NULL);
+    void    *ptr;
+    
+    ptr = malloc(number_of_elements * size_of_element);
+    if (!ptr)
+        return(NULL);
+    ft_memset(ptr, 0, number_of_elements * size_of_element);
+    return (ptr);
 }
