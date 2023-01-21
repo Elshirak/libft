@@ -1,10 +1,11 @@
 char *ft_strdup(const char *source_string)
 {
 	size_t	length_str;
-	void	*result;
-
+	size_t	i;
+	char	*result;
+	
 	length_str = ft_strlen(source_string) + 1;
-	result = malloc(sizeof(char) * ength_str);
+	result = (char *) malloc(sizeof(char) * length_str);
 
 	if (!result)
 		return (NULL);
