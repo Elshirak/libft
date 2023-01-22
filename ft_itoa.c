@@ -1,8 +1,16 @@
-#include <stdio.h>
-#include <stddef.h>
-#include <stdlib.h>
-#include "ft_strdup.c"
-#include "ft_strlen.c"
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/22 15:08:56 by selbakya          #+#    #+#             */
+/*   Updated: 2023/01/22 15:09:17 by selbakya         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
 
 char	*ft_itoa(int n)
 {
