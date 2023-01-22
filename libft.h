@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:48:37 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/20 14:31:33 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/22 15:39:52 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,9 @@ int		ft_isascii(int sym);
 int		ft_isdigit(int symbol);
 int		ft_isprint(int sym);
 void	ft_memcpy(void *dest, const void *src, size_t len);
+
+char	*ft_substr(char const *s, unsigned int start, size_t len);
+char	*ft_strtrim(char const *s1, char const *set);
 
 typedef struct s_list {
 	void			*content;
