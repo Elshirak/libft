@@ -6,7 +6,7 @@
 #    By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/18 14:04:13 by selbakya          #+#    #+#              #
-#    Updated: 2023/01/23 20:46:29 by selbakya         ###   ########.fr        #
+#    Updated: 2023/01/23 21:29:06 by selbakya         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,25 +39,34 @@ all: $(NAME)
 	@echo $?
 
 $(NAME): $(OBJECTS) $(HEADER)
-	@echo "$(BLUE) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ \n$(RESET)\c"
-	ar -rc $(NAME) $?
+	@echo "$(BLUE) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
+	@ar -rc $(NAME) $?
 	@ranlib $(NAME)
-	@echo "\n$(BLUE) lib created \n$(RESET)"
+	@echo "\n$(BLUE)                   lib created \n$(RESET)"
+	@echo "$(BLUE) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
 
 bonus: $(BONUS_OBJ) $(HEADER)
-	@echo "$(BLUE) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ \n$(RESET)\c"
-	ar -rc $(NAME) $?
+	@echo "$(BLUE) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
+	@ar -rc $(NAME) $?
 	@ranlib $(NAME)
-	@echo "\n$(BLUE) lib with bonus functions was created \n$(RESET)"
+	@echo "\n$(BLUE)       lib with bonus functions was created \n$(RESET)"
+	@echo "$(BLUE) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
 
 clean:  
 	@rm -rf $(BONUS_OBJ) $(OBJECTS)
-	@echo "$(NAME): $(PINK) object files are deleted $(RESET)"
+	@echo "$(PINK) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
+	@echo 
+	@echo "$(NAME): $(PINK)    object files were deleted $(RESET)"
+	@echo 
+	@echo "$(PINK) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
 
 fclean: clean
 	@rm -f $(NAME)
-	@rm libft.h.gch
-	@echo "$(NAME): $(PINK) $(NAME) deleted $(RESET)"
+	@echo "$(PINK) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
+	@echo 
+	@echo "$(NAME):$(PINK)            deleted $(RESET)"
+	@echo 
+	@echo "$(PINK) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
 
 
 re: fclean all
