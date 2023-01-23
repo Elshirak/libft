@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 17:36:04 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/18 16:02:35 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/23 20:44:03 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	from = (const unsigned char *)src;
 	if (!len || from == to)
 		return (dest);
+	i = 0;
 	while (i < len)
 	{
 		if (to > from)

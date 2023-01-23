@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 15:07:50 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/22 15:08:03 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/23 20:40:32 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,7 @@ char *ft_strdup(const char *source_string)
 
 	if (!result)
 		return (NULL);
+	i = 0;
 	while ( i++ < length_str)
 		result[i] = source_string[i];
 	result[i] = '\0';

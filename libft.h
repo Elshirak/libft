@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:48:37 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/23 20:32:10 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/23 20:43:35 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,12 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size);
 int		ft_isalpha(int symbol);
 void	ft_bzero(void *s, size_t length);
 void	*ft_memset(void *dest, int val, size_t len);
+int 	ft_memcmp(const void *array1, const void *array2, size_t len);
 int		ft_isalnum(int sym);
 int		ft_isascii(int sym);
 int		ft_isdigit(int symbol);
 int		ft_isprint(int sym);
-void	ft_memcpy(void *dest, const void *src, size_t len);
+void	*ft_memcpy(void *dest, const void *src, size_t len);
 void    *ft_memchr(const void *smth, int symbol, size_t len);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char	*ft_strtrim(char const *s1, char const *set);
