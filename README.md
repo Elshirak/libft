@@ -32,10 +32,10 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_memmove		| | | <ul> In progress :ok_hand:</ul> | ft_itoa
 | <ul> DONE :white_check_mark:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
 | <ul> DONE :white_check_mark:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
-| <ul> DONE :white_check_mark:</ul> |ft_strchr		| | | <ul> In progress :ok_hand:</ul> | ft_putchar_fd 
-| <ul> DONE :white_check_mark:</ul> |ft_strrchr		| | | <ul> In progress :ok_hand:</ul> |	ft_putstr_fd
-| <ul> DONE :white_check_mark:</ul> |ft_strnstr		| | | <ul> In progress :ok_hand:</ul> | ft_putendl_fd
-| <ul> DONE :white_check_mark:</ul> |ft_strlcat		| | | <ul> In progress :ok_hand:</ul> | ft_putnbr_fd
+| <ul> DONE :white_check_mark:</ul> |ft_strchr		| | | <ul> DONE :white_check_mark:</ul> | ft_putchar_fd 
+| <ul> DONE :white_check_mark:</ul> |ft_strrchr		| | | <ul> DONE :white_check_mark:</ul> |	ft_putstr_fd
+| <ul> DONE :white_check_mark:</ul> |ft_strnstr		| | | <ul> DONE :white_check_mark:</ul> | ft_putendl_fd
+| <ul> DONE :white_check_mark:</ul> |ft_strlcat		| | | <ul> DONE :white_check_mark:</ul> | ft_putnbr_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcpy 	| | | <ul> In progress :ok_hand:</ul> | ft_split
 | <ul> DONE :white_check_mark:</ul> |ft_strlen	  | | |  <ul> DONE :white_check_mark:</ul> | ft_strdup.c
 | <ul> DONE :white_check_mark:</ul> |ft_isalpha	  | | | **Status** | **Bonus func** | **Comments**
