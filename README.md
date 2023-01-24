@@ -26,9 +26,9 @@ The purpose is to create my own C library which I'll use in future projects. Lib
 Table of included functions:
 |Status|LibC func|Comments| | Status|Additional func|Comments|
 :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: | :-----------: 
-| <ul> DONE :white_check_mark:</ul> | ft_bzero    | | | <ul> In progress :ok_hand:</ul> | ft_substr | 
+| <ul> DONE :white_check_mark:</ul> | ft_bzero    | | | <ul>  DONE :white_check_mark:</ul> | ft_substr | 
 | <ul> DONE :white_check_mark:</ul> |ft_memchr	  | | |  <ul> DONE :white_check_mark:</ul> | ft_strjoin	
-| <ul> DONE :white_check_mark:</ul> |ft_memcpy		| | | <ul> In progress :ok_hand:</ul> | ft_strtrim
+| <ul> DONE :white_check_mark:</ul> |ft_memcpy		| | | <ul>  DONE :white_check_mark:</ul> | ft_strtrim
 | <ul> DONE :white_check_mark:</ul> |ft_memmove		| | | <ul> In progress :ok_hand:</ul> | ft_itoa
 | <ul> DONE :white_check_mark:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
 | <ul> DONE :white_check_mark:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
