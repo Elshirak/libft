@@ -29,6 +29,13 @@
 }
 */
 
+	if (*pointer == '\0' && c == '\0')
+	{
+		return (pointer);
+	}
+
+
+
 char    *ft_strchr(const char *pointer_str, int symbol)
 {
 	unsigned char c;
@@ -42,6 +49,8 @@ char    *ft_strchr(const char *pointer_str, int symbol)
             return ((char *)&pointer_str[iterator]);
         iterator++;
     }
+	if (pointer_str[iterator] == '\0' && c == '\0')
+		return (pointer_str[iterator]);
     return (NULL);
 }
 
