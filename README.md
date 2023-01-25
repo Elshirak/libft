@@ -5,7 +5,7 @@
 
 * ***Actual status:***    In progress 
 * ***Approximate labor costs:***    about 70 hours
-* ***Actual labor costs:***    22 hours 0 minutes
+* ***Actual labor costs:***    23 hours 0 minutes
 * ***Start date:***    16.01.2023 
 * ***Finish date:***    25.01.2023 
 <br>
@@ -39,11 +39,11 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_strlcpy 	| | | <ul> In progress :ok_hand:</ul> | ft_split
 | <ul> DONE :white_check_mark:</ul> |ft_strlen	  | | |  <ul> DONE :white_check_mark:</ul> | ft_strdup
 | <ul> DONE :white_check_mark:</ul> |ft_isalpha	  | | | **Status** | **Bonus func** | **Comments**
-| <ul> DONE :white_check_mark:</ul> |ft_isdigit   | | |  <ul> In progress :ok_hand:</ul> | ft_lstnew
-| <ul> DONE :white_check_mark:</ul> |ft_isalnum	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstadd_front
-| <ul> DONE :white_check_mark:</ul> |ft_isascii	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstsize
-| <ul> DONE :white_check_mark:</ul> |ft_isprint	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstlast
-| <ul> DONE :white_check_mark:</ul> |ft_toupper		| | |  <ul> In progress :ok_hand:</ul> | ft_lstadd_back
+| <ul> DONE :white_check_mark:</ul> |ft_isdigit   | | |  <ul> DONE :white_check_mark:</ul> | ft_lstnew
+| <ul> DONE :white_check_mark:</ul> |ft_isalnum	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstadd_front
+| <ul> DONE :white_check_mark:</ul> |ft_isascii	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstsize
+| <ul> DONE :white_check_mark:</ul> |ft_isprint	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstlast
+| <ul> DONE :white_check_mark:</ul> |ft_toupper		| | |  <ul> DONE :white_check_mark:</ul> | ft_lstadd_back
 | <ul> DONE :white_check_mark:</ul> |ft_tolower	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstdelone
 | <ul> DONE :white_check_mark:</ul> |ft_atoi	    | | |  <ul> In progress :ok_hand:</ul> | ft_lstclear
 | <ul> DONE :white_check_mark:</ul> |ft_memcmp	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstiter
