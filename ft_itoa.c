@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 15:08:56 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 13:26:51 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 14:07:26 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,7 @@ char	*ft_itoa(int n)
 	ptr = (char *) malloc ((size) * sizeof (char));
 	if (n == -2147483648)
 		return (ft_strdup("-2147483648"));
+
 }
 
 size_t	ft_getsize(const int sign, const int n)
