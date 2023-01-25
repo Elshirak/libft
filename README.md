@@ -30,25 +30,25 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_memchr	  | | |  <ul> DONE :white_check_mark:</ul> | ft_strjoin	
 | <ul> DONE :white_check_mark:</ul> |ft_memcpy		| | | <ul>  DONE :white_check_mark:</ul> | ft_strtrim
 | <ul> DONE :white_check_mark:</ul> |ft_memmove		| | | <ul> In progress :ok_hand:</ul> | ft_itoa
-| <ul> DONE :white_check_mark:</ul> |ft_memset		| | | <ul> In progress :ok_hand:</ul> | ft_strmapi
-| <ul> DONE :white_check_mark:</ul> |ft_strncmp		| | | <ul> In progress :ok_hand:</ul> | ft_striteri
+| <ul> DONE :white_check_mark:</ul> |ft_memset		| | | <ul> DONE :white_check_mark:</ul> | ft_strmapi
+| <ul> DONE :white_check_mark:</ul> |ft_strncmp		| | | <ul> DONE :white_check_mark:</ul> | ft_striteri
 | <ul> DONE :white_check_mark:</ul> |ft_strchr		| | | <ul> DONE :white_check_mark:</ul> | ft_putchar_fd 
 | <ul> DONE :white_check_mark:</ul> |ft_strrchr		| | | <ul> DONE :white_check_mark:</ul> |	ft_putstr_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strnstr		| | | <ul> DONE :white_check_mark:</ul> | ft_putendl_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcat		| | | <ul> DONE :white_check_mark:</ul> | ft_putnbr_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcpy 	| | | <ul> In progress :ok_hand:</ul> | ft_split
-| <ul> DONE :white_check_mark:</ul> |ft_strlen	  | | |  <ul> DONE :white_check_mark:</ul> | ft_strdup.c
+| <ul> DONE :white_check_mark:</ul> |ft_strlen	  | | |  <ul> DONE :white_check_mark:</ul> | ft_strdup
 | <ul> DONE :white_check_mark:</ul> |ft_isalpha	  | | | **Status** | **Bonus func** | **Comments**
-| <ul> DONE :white_check_mark:</ul> |ft_isdigit
-| <ul> DONE :white_check_mark:</ul> |ft_isalnum	
-| <ul> DONE :white_check_mark:</ul> |ft_isascii	
-| <ul> DONE :white_check_mark:</ul> |ft_isprint	
-| <ul> DONE :white_check_mark:</ul> |ft_toupper		
-| <ul> DONE :white_check_mark:</ul> |ft_tolower	
-| <ul> DONE :white_check_mark:</ul> |ft_atoi	
-| <ul> DONE :white_check_mark:</ul> |ft_memcmp	 
-| <ul> DONE :white_check_mark:</ul> |ft_strdup	 
-| <ul> DONE :white_check_mark:</ul> |ft_calloc	 
+| <ul> DONE :white_check_mark:</ul> |ft_isdigit   | | |  <ul> In progress :ok_hand:</ul> | ft_lstnew
+| <ul> DONE :white_check_mark:</ul> |ft_isalnum	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstadd_front
+| <ul> DONE :white_check_mark:</ul> |ft_isascii	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstsize
+| <ul> DONE :white_check_mark:</ul> |ft_isprint	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstlast
+| <ul> DONE :white_check_mark:</ul> |ft_toupper		| | |  <ul> In progress :ok_hand:</ul> | ft_lstadd_back
+| <ul> DONE :white_check_mark:</ul> |ft_tolower	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstdelone
+| <ul> DONE :white_check_mark:</ul> |ft_atoi	    | | |  <ul> In progress :ok_hand:</ul> | ft_lstclear
+| <ul> DONE :white_check_mark:</ul> |ft_memcmp	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstiter
+| <ul> DONE :white_check_mark:</ul> |ft_strdup	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstmap
+| <ul> DONE :white_check_mark:</ul> |ft_calloc
 
 
 
