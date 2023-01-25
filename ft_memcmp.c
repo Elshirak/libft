@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 01:41:04 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/20 02:00:38 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 17:32:14 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,8 +26,8 @@ int ft_memcmp(const void *array1, const void *array2, size_t len)
         return (0);
     while (++iterable < len && *arr1 == *arr2)
     {
-            arr1++;
-            arr2++;    
+            ++arr1;
+            ++arr2;    
     }
     return ((int)(*arr1 - *arr2));
 }
