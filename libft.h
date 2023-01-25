@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:48:37 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 13:31:32 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 19:12:33 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,16 @@
 # include <stddef.h>
 # include <stdlib.h>
 
+typedef struct s_list {
+	void			*content;
+	struct s_list	*next;
+}	t_list;
+
+void	ft_lstadd_back(t_list **lst, t_list *new);
+t_list	*ft_lstlast(t_list *lst);
+int		ft_lstsize(t_list *lst);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+t_list  *ft_lstnew(void *content);
 void    ft_putchar_fd(char c, int fd);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void    ft_striteri(char *s, void (*f)(unsigned int, char*));
@@ -51,10 +61,5 @@ char    *ft_strrchr(const char *s, int symb);
 char    *ft_substr(char const *s, unsigned int start, size_t len);
 int		ft_tolower(int symbol);
 int		ft_toupper(int symbol);
-
-typedef struct s_list {
-	void			*content;
-	struct s_list	*next;
-}	t_list;
 
 #endif
