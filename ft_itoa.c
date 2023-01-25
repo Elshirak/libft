@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 15:08:56 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 15:57:35 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 16:36:23 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_itoa(int n)
 	if (n == 0)
 		return (ft_strdup("0"));
 	size_str = ft_getsize(n);
-	result_str = (char *) malloc(size_str * sizeof (char));
+	result_str = (char *) malloc((size_str + 1) * sizeof (char));
 	if (result_str == NULL)
 		return (NULL);
 	return (ft_fillstr(n, result_str, size_str));
@@ -39,6 +39,7 @@ char	*ft_fillstr(int n, char *result_str, long size_str)
 	if (n < 0)
 	{
 		result_str[0] = '-';
+		result_str[size_str] = '\0';
 		n = n * -1;
 		size_str--;
 	}

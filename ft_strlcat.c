@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 15:58:28 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 13:22:58 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 16:51:19 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,16 +19,14 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	size_t	ls;
 	size_t	j;
 
-	leng_dest = 0;
-	leng_src = 0;
-	j = 0;
-	while (dest[leng_dest] != '\0')
-		++leng_dest;
-	while (src[leng_src] != '\0')
-		++leng_src;
+	leng_dest = ft_strlen(dest);
+	leng_src = ft_strlen(src);
+
 	if (size == 0 || size <= leng_dest)
 		return (leng_src + size);
+		
 	ls = leng_dest;
+	j = 0;
 	while (j < size - leng_dest - 1 && src[j] != '\0')
 	{
 		dest[ls] = src[j];

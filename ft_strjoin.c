@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 15:08:20 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/22 15:08:23 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 16:56:13 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	char	*ptr_result;
 	char	*result;
 
+	if (!s1 || !s2)
+        return (NULL);
 	len_result_string = ft_strlen(s1) + ft_strlen(s2) + 1;
 	ptr_result = (char *) malloc(len_result_string * sizeof(char));
 	if (!ptr_result)
