@@ -5,7 +5,7 @@
 
 * ***Actual status:***    In progress 
 * ***Approximate labor costs:***    about 70 hours
-* ***Actual labor costs:***    23 hours 0 minutes
+* ***Actual labor costs:***    24 hours 0 minutes
 * ***Start date:***    16.01.2023 
 * ***Finish date:***    25.01.2023 
 <br>
@@ -44,9 +44,9 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_isascii	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstsize
 | <ul> DONE :white_check_mark:</ul> |ft_isprint	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstlast
 | <ul> DONE :white_check_mark:</ul> |ft_toupper		| | |  <ul> DONE :white_check_mark:</ul> | ft_lstadd_back
-| <ul> DONE :white_check_mark:</ul> |ft_tolower	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstdelone
-| <ul> DONE :white_check_mark:</ul> |ft_atoi	    | | |  <ul> In progress :ok_hand:</ul> | ft_lstclear
-| <ul> DONE :white_check_mark:</ul> |ft_memcmp	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstiter
+| <ul> DONE :white_check_mark:</ul> |ft_tolower	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstdelone
+| <ul> DONE :white_check_mark:</ul> |ft_atoi	    | | |  <ul> DONE :white_check_mark:</ul> | ft_lstclear
+| <ul> DONE :white_check_mark:</ul> |ft_memcmp	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstiter
 | <ul> DONE :white_check_mark:</ul> |ft_strdup	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstmap
 | <ul> DONE :white_check_mark:</ul> |ft_calloc
 
