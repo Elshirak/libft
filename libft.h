@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:48:37 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 12:38:58 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 13:31:32 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,12 @@
 # include <stddef.h>
 # include <stdlib.h>
 
+void    ft_putchar_fd(char c, int fd);
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void    ft_striteri(char *s, void (*f)(unsigned int, char*));
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putendl_fd(char *s, int fd);
-void	ft_putchar(char c, int fd);
+void	ft_putstr_fd(char *s, int fd);
 int		ft_atoi(const char *str);
 void    *ft_calloc(size_t number_of_elements, size_t size_of_element);
 char	*ft_itoa(int n);

@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 12:38:20 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 13:22:49 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 13:28:17 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,6 @@ char    *ft_strmapi(char const *s, char (*f)(unsigned int, char))
         result_string[iterator] = (*f)(iterator, s[iterator]);
         iterator++;
     }
-    
+    return (result_string);
         
 }

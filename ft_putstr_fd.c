@@ -6,11 +6,11 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 21:20:59 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/24 21:23:06 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/25 13:29:51 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {
