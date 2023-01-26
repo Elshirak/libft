@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 15:08:56 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 16:36:23 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/26 21:24:06 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,6 @@ char	*ft_itoa(int n)
 	if (result_str == NULL)
 		return (NULL);
 	return (ft_fillstr(n, result_str, size_str));
-	
 }
 
 char	*ft_fillstr(int n, char *result_str, long size_str)
@@ -43,7 +42,7 @@ char	*ft_fillstr(int n, char *result_str, long size_str)
 		n = n * -1;
 		size_str--;
 	}
-	else 
+	else
 	{
 		result_str[size_str] = '\0';
 		size_str--;
