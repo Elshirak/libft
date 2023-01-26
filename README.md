@@ -47,7 +47,7 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_tolower	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstdelone
 | <ul> DONE :white_check_mark:</ul> |ft_atoi	    | | |  <ul> DONE :white_check_mark:</ul> | ft_lstclear
 | <ul> DONE :white_check_mark:</ul> |ft_memcmp	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstiter
-| <ul> DONE :white_check_mark:</ul> |ft_strdup	  | | |  <ul> In progress :ok_hand:</ul> | ft_lstmap
+| <ul> DONE :white_check_mark:</ul> |ft_strdup	  | | |  <ul> DONE :white_check_mark:</ul> | ft_lstmap
 | <ul> DONE :white_check_mark:</ul> |ft_calloc
 
 
