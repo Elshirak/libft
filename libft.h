@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/16 20:48:37 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 20:10:42 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/26 15:23:49 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,5 +65,6 @@ char    *ft_strrchr(const char *s, int symb);
 char    *ft_substr(char const *s, unsigned int start, size_t len);
 int		ft_tolower(int symbol);
 int		ft_toupper(int symbol);
+char    **ft_split(char const *s, char c);
 
 #endif
