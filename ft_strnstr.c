@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/20 02:01:13 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/25 17:53:36 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/26 14:53:51 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,20 +14,26 @@
 
 char    *ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
-    size_t len_needle;
-    size_t  iter;
-    
-    len_needle = ft_strlen(needle);
-    if (!len_needle)
-        return ((char *)(haystack));
-    iter = 0;
-    while (len >= len_needle && *haystack != '\0')
-    {
-        len--;
-        if (!ft_memcmp(haystack, needle, len_needle))
-            return ((char *)(haystack));
-        
-        haystack++;
-    }
-    return (NULL);
+    unsigned int	str_length;
+	unsigned int	itera;
+
+	if (!*needle)
+		return ((char *)haystack);
+	if (!len)
+		return (0);
+	str_length = 0;
+	while (haystack[str_length] != '\0' && (size_t)str_length < len)
+	{
+		if (haystack[str_length] == needle[0])
+		{
+			itera = 1;
+			while (needle[itera] != '\0' && haystack[str_length + itera] == needle[itera] && \
+					(size_t)(str_length + itera) < len)
+				++itera;
+			if (needle[itera] == '\0')
+				return ((char *)&haystack[str_length]);
+		}
+		++str_length;
+	}
+	return (NULL);
 }
