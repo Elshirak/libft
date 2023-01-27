@@ -5,7 +5,7 @@
 
 * ***Actual status:***    In progress 
 * ***Approximate labor costs:***    about 70 hours
-* ***Actual labor costs:***    25 hours 0 minutes
+* ***Actual labor costs:***    26 hours 0 minutes
 * ***Start date:***    16.01.2023 
 * ***Finish date:***    27.01.2023 
 <br>
@@ -57,6 +57,6 @@ Table of included functions:
 
 
 Special shoutouts to:
-* Thanks to [Aleliver](https://github.com/alelievr) for the [Libftest](https://github.com/alelievr/libft-unit-test)
+* Thanks to [Aleliver](https://github.com/alelievr) for the [libft-unit-test](https://github.com/alelievr/libft-unit-test)
 * Thanks to [Lmartin](https://github.com/0x050f) for the [libft-war-machine](https://github.com/0x050f/libft-war-machine)
 * Thanks to [Tripouille](https://github.com/Tripouille) for the [libftTester](https://github.com/Tripouille/libftTester) 
