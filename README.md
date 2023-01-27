@@ -1,13 +1,13 @@
-# libft
+# libft :books:
 *My first project in [42 coding school](https://42.fr/en/homepage/)*
 <hr> 
 <img src="https://user-images.githubusercontent.com/68464959/212696987-c73b8a49-fc67-4a3b-a55d-ea796fb70774.png" align="right" width="500">
 
 * ***Actual status:***    In progress 
 * ***Approximate labor costs:***    about 70 hours
-* ***Actual labor costs:***    26 hours 0 minutes
+* ***Actual labor costs:***    28 hours 0 minutes
 * ***Start date:***    16.01.2023 
-* ***Finish date:***    27.01.2023 
+* ***Finish date:***    27.01.2023 - FINISHED
 <br>
 <br>
 <br>
@@ -36,7 +36,7 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_strrchr		| | | <ul> DONE :white_check_mark:</ul> |	ft_putstr_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strnstr		| | | <ul> DONE :white_check_mark:</ul> | ft_putendl_fd
 | <ul> DONE :white_check_mark:</ul> |ft_strlcat		| | | <ul> DONE :white_check_mark:</ul> | ft_putnbr_fd
-| <ul> DONE :white_check_mark:</ul> |ft_strlcpy 	| | | <ul> In progress :ok_hand:</ul> | ft_split
+| <ul> DONE :white_check_mark:</ul> |ft_strlcpy 	| | | <ul> DONE :white_check_mark:</ul> | ft_split
 | <ul> DONE :white_check_mark:</ul> |ft_strlen	  | | |  <ul> DONE :white_check_mark:</ul> | ft_strdup
 | <ul> DONE :white_check_mark:</ul> |ft_isalpha	  | | | **Status** | **Bonus func** | **Comments**
 | <ul> DONE :white_check_mark:</ul> |ft_isdigit   | | |  <ul> DONE :white_check_mark:</ul> | ft_lstnew
