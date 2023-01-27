@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/22 15:07:50 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/26 21:59:41 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/27 16:40:34 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,5 @@ char	*ft_strdup(const char *source_string)
 		result[i] = source_string[i];
 		i++;
 	}
-	result[i] = '\0';
 	return (result);
 }
