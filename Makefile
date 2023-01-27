@@ -6,7 +6,7 @@
 #    By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/18 14:04:13 by selbakya          #+#    #+#              #
-#    Updated: 2023/01/26 20:04:07 by selbakya         ###   ########.fr        #
+#    Updated: 2023/01/27 15:26:30 by selbakya         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -66,6 +66,5 @@ fclean: clean
 	@echo "$(NAME):$(PINK)            deleted $(RESET)"
 	@echo 
 	@echo "$(PINK) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ ~~~\n$(RESET)\c"
-
 
 re: fclean all
