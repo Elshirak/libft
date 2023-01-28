@@ -6,7 +6,7 @@
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/18 15:58:28 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/26 22:05:13 by selbakya         ###   ########.fr       */
+/*   Updated: 2023/01/27 20:32:17 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	size_t	ls;
 	size_t	j;
 
-	if ((!dest ^ !src) && !size)
+	if ((!dest || !src) && !size)
 		return (0);
 	leng_dest = ft_strlen(dest);
 	leng_src = ft_strlen(src);

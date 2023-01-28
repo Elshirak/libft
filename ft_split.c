@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/26 15:23:07 by selbakya          #+#    #+#             */
-/*   Updated: 2023/01/27 15:21:26 by selbakya         ###   ########.fr       */
+/*   Created: 2023/01/18 00:49:14 by emaksimo          #+#    #+#             */
+/*   Updated: 2023/01/28 15:02:19 by selbakya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ char	**ft_cnt_wd_ini_ar(char const *string_in, char symb_sep, size_t count_w)
 	size_t	iter;
 
 	iter = 0;
-	if (!string_in)
-		return (NULL);
 	while (string_in[iter] && string_in[iter] == symb_sep)
 		iter++;
 	while (string_in[iter])
@@ -49,6 +47,13 @@ size_t	ft_word_end_index(const char *str, char separator, size_t itera)
 	return (itera);
 }
 
+void	ft_free(char **ptr_arr, size_t it)
+{
+	while (it--)
+		free(*(ptr_arr + it));
+	free(ptr_arr);
+}
+
 char	**fil_ar(char **ptr_arr, const char *string_in, char symb_sep, size_t j)
 {
 	size_t	itera;
@@ -64,7 +69,7 @@ char	**fil_ar(char **ptr_arr, const char *string_in, char symb_sep, size_t j)
 				ft_word_end_index((string_in + itera), symb_sep, 0));
 			if (!*(ptr_arr + j))
 			{
-				free(ptr_arr);
+				ft_free(ptr_arr, j);
 				return (NULL);
 			}
 			++j;
@@ -80,6 +85,14 @@ char	**ft_split(char const *s, char c)
 {
 	char	**ptr_arr;
 
+	if (!s)
+		return (NULL);
+	if (*s == '\0')
+	{
+		ptr_arr = malloc(1 * sizeof (char *));
+		ptr_arr[0] = NULL;
+		return (ptr_arr);
+	}
 	ptr_arr = ft_cnt_wd_ini_ar(s, c, 0);
 	if (!ptr_arr)
 		return (NULL);
