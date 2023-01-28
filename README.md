@@ -13,6 +13,7 @@
 <br>
 
 ***RESULT :*** 
+<img width="1464" alt="Screen Shot 2023-01-28 at 7 58 37 PM" src="https://user-images.githubusercontent.com/68464959/215279313-0bee75ab-86e0-4e1d-b426-984486106c3a.png">
 
 <hr>
 <br>
@@ -22,6 +23,7 @@ The purpose is to create my own C library which I'll use in future projects. Lib
 1.  **Libc Functions:** Some of the standard C functions
 2.  **Additional functions:** Functions 42 deems will be useful for later projects
 3.  **Bonus Functions:** Functions 42 deems will be useful for linked list manipulation
+You can see subject in the repo.
 
 Table of included functions:
 |Status|LibC func| Status|Additional func|
@@ -51,6 +53,7 @@ Table of included functions:
 | <ul> DONE :white_check_mark:</ul> |ft_calloc
 
 <img width="2048" alt="image" src="https://user-images.githubusercontent.com/68464959/215264601-4a39bd78-ca04-4d8c-8c74-0b3b30f7d4af.png">
+
 
 
 Special shoutouts to:
