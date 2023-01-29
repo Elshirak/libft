@@ -3,7 +3,7 @@
 <hr> 
 <img src="https://user-images.githubusercontent.com/68464959/212696987-c73b8a49-fc67-4a3b-a55d-ea796fb70774.png" align="right" width="500">
 
-* ***Actual status:***    Waiting for evaluation 
+* ***Actual status:   DONE 125%***  
 * ***Approximate labor costs:***    about 70 hours
 * ***Actual labor costs:***    30 hours 0 minutes
 * ***Start date:***    16.01.2023 
