@@ -42,7 +42,7 @@ BLUE = \033[1;36m
 PINK = \033[1;35m
 RESET = \033[0m
 
-.PHONY: all bonus clean fclean re
+.PHONY: all bonus clean fclean re norm
 
 all: $(NAME)
 	@echo $?
