@@ -6,7 +6,7 @@
 #    By: selbakya <selbakya@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/18 14:04:13 by selbakya          #+#    #+#              #
-#    Updated: 2023/01/29 18:12:23 by selbakya         ###   ########.fr        #
+#    Updated: 2023/01/29 18:43:09 by selbakya         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -42,7 +42,7 @@ BLUE = \033[1;36m
 PINK = \033[1;35m
 RESET = \033[0m
 
-.PHONY: all bonus clean fclean re
+.PHONY: all bonus clean fclean re norm
 
 all: $(NAME)
 	@echo $?
@@ -80,8 +80,8 @@ fclean: clean
 re: fclean all
 
 norm:
-	@echo "$(GREEN) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~  Norminette  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ \n\c"
+	@echo "$(GREEN) ~~~ ~~~ ~~~ ~~~ ~~~ ~~~  Norminette  ~~~ ~~~ ~~~ ~~~ ~~~ ~~~ \n$(RED)\c"
 	@echo
-	@norminette $(SOURCES) $(BONUS_SRC) $(HEADER) | grep "Error" || true 
+	@norminette $(SOURCES) $(BONUS_SRC) $(HEADER) | grep "Error" -B1 || true 
 	@echo
-	@echo " ~~~ If there is nothing above, all files respect the $(RED)Norm$(GREEN) ~~~\n$(RESET)\c"
+	@echo "$(GREEN) ~~~ If there is nothing above, all files respect the $(RED)Norm$(GREEN) ~~~\n$(RESET)\c"
