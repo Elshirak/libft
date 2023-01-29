@@ -7,7 +7,7 @@
 * ***Approximate labor costs:***    about 70 hours
 * ***Actual labor costs:***    30 hours 0 minutes
 * ***Start date:***    16.01.2023 
-* ***Finish date:***    27.01.2023 - FINISHED 28.01
+* ***Deadline:***    27.01.2023 - FINISHED 28.01
 <br>
 <br>
 <br>
