@@ -3,7 +3,7 @@
 <hr> 
 <img src="https://user-images.githubusercontent.com/68464959/212696987-c73b8a49-fc67-4a3b-a55d-ea796fb70774.png" align="right" width="500">
 
-* ***Actual status:   DONE 125%***  
+* [![selbakya's 42 Libft Score](https://badge42.vercel.app/api/v2/cldj70azv00300fl3u17rbnil/project/2935136)](https://github.com/JaeSeoKim/badge42)  
 * ***Approximate labor costs:***    about 70 hours
 * ***Actual labor costs:***    30 hours 0 minutes
 * ***Start date:***    16.01.2023 
@@ -14,6 +14,7 @@
 
 ***RESULT :*** 
 <img width="1464" alt="Screen Shot 2023-01-28 at 7 58 37 PM" src="https://user-images.githubusercontent.com/68464959/215279313-0bee75ab-86e0-4e1d-b426-984486106c3a.png">
+
 
 <hr>
 <br>
